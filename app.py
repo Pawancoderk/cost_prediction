@@ -2,10 +2,10 @@ import numpy as np
 import streamlit as st
 import pickle
 
-with open("D:\python\Regresion-model Project\App\models/scaler.pkl","rb") as scaler_file:
+with open("D:\python\Regresion-model Project\App\models\scaler.pkl","rb") as scaler_file:
     loaded_scaler = pickle.load(scaler_file)
 
-with open("D:\python\Regresion-model Project\App\models/model.pkl","rb") as model_file:
+with open("D:\python\Regresion-model Project\App\models\model.pkl","rb") as model_file:
     loaded_model = pickle.load(model_file)
 
 st.title("E-Commerce Predictor ")
